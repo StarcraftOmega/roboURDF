@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(roboURDF)
+project(my_robot_chassis)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -23,7 +23,6 @@ install(DIRECTORY
   config
   description
   launch
-  worlds
   DESTINATION share/${PROJECT_NAME}/
 )
 
